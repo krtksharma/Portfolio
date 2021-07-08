@@ -4,19 +4,9 @@
     <title>OnSubmitDemo</title>
 </head>
 <body>
-    <script lang="JavaScript">
-        function doCheck(){
-            if(frmlogin.login.value=="")
-            {
-                alert("Email can't be blank");
-                return false;
-            }
-            return true;
-        }
-    </script>
     <fieldset>
     <legend>Enter Informations</legend>
-    <form name="frmlogin"  method="POST" data-netlify="true" enctype="text/plain" onsubmit="return doCheck()">
+    <form name="contact" method="POST" data-netlify="true">
         Email : <input type="email" name="login">
         <br>
         <br>
